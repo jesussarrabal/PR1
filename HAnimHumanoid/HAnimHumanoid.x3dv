@@ -85,7 +85,7 @@ DEF boxman_Humanoid HAnimHumanoid {
   info [ "authorName=James Smith", "authorEmail=james@vapourtech.com", "copyright=(C) 2000 James Smith - james@vapourtech.com", "humanoidVersion=2.0" ]
   skeleton DEF boxman_HumanoidRoot HAnimJoint {
     name "humanoid_root"
-    translation 0 -0.006392313 0
+    translation 0 -0.006392313 00
     center 0 0.9723 -0.0728
     skinCoordIndex [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
     skinCoordWeight [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
@@ -111,7 +111,7 @@ DEF boxman_Humanoid HAnimHumanoid {
         rotation -0.636839601367592 0.0827264252771516 0.766545276347614 0.129841782502735
         center 0.0956 0.9364 0
         skinCoordIndex [ 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43 ]
-        skinCoordWeight [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5 ]
+        skinCoordWeight [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 1000, 100, 100, 100, 1000, 1000, 10000, 10000, 1000, 10000, 100, 1000, 555, 555, 5555, 5555, 5555,555, 0.5, 0.5 ]
         children [
           DEF boxman_l_thigh HAnimSegment {
             name "l_thigh"
