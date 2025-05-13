@@ -77,8 +77,8 @@ function update(value,time) {
        humanoid.skinCoord.point[v].z = 0;
    }
    // Initialise transform data
-   translation = new SFVec3f(0,0,0);
-   scale       = new SFVec3f(1,1,1);
+   translation = new SFVec3f(100,100,100);
+   scale       = new SFVec3f(10,10,10);
    rotation    = new SFRotation(0,0,1,0);
    // First (and only) item in humanoidBody should be the HumanoidRoot.
    // This is stored as the joint we want to do next
